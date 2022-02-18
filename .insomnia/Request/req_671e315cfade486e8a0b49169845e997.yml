@@ -1,27 +1,25 @@
-_id: req_07c4f7bcc15e499b8016036abdc6d49a
+_id: req_671e315cfade486e8a0b49169845e997
 type: Request
-parentId: fld_7a5c2dc0b71843ddaba571e19a099623
-modified: 1645220121380
-created: 1645205086196
-url: "{{ _.api_base_url }}/authentication"
-name: login local
+parentId: fld_4e19442804064a9cb090f237d2ad29cf
+modified: 1645220043709
+created: 1645218969769
+url: "{{ _.api_base_url }}/pwd-reset/ckzswzhss00005hry0hevad8z"
+name: password reset reset
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-      "strategy": "local",
-    	"email": "primoz@susa.cloud",
     	"password": "susa1"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_20d49ae935db41db94248fdbfee8b513
+    id: pair_06fea1ebe805428ab938ab398b5251d3
 authentication: {}
-metaSortKey: -1645205048161
+metaSortKey: -1645205112636.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
