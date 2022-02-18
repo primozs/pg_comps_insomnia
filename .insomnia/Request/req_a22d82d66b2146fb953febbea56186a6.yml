@@ -1,0 +1,30 @@
+_id: req_a22d82d66b2146fb953febbea56186a6
+type: Request
+parentId: fld_7a5c2dc0b71843ddaba571e19a099623
+modified: 1645205067017
+created: 1645204944321
+url: "{{ _.api_base_url }}/authentication"
+name: login jwt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"strategy": "jwt",
+    	"accessToken": "{{ JwtToken }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_20d49ae935db41db94248fdbfee8b513
+authentication: {}
+metaSortKey: -1645205048186
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

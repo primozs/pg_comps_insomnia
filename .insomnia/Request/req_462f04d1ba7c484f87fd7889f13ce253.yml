@@ -1,0 +1,29 @@
+_id: req_462f04d1ba7c484f87fd7889f13ce253
+type: Request
+parentId: fld_4e19442804064a9cb090f237d2ad29cf
+modified: 1645213101905
+created: 1645205999342
+url: "{{ _.api_base_url }}/users/ckzsp0ma90000eiry0h98i354"
+name: user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_c979e59540f64e3aae6890daf9ca8e46
+authentication: {}
+metaSortKey: -1645205086856.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_22e6350ede054e49b2db195a74412f31
+type: Request
+parentId: fld_7a5c2dc0b71843ddaba571e19a099623
+modified: 1645205820351
+created: 1645205048136
+url: "{{ _.api_base_url }}/authentication"
+name: logout
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"strategy": "jwt",
+    	"access_token": "{{ JwtToken }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5b3b8dd19ec44977a588e149e2561e98
+authentication: {}
+metaSortKey: -1645205048136
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

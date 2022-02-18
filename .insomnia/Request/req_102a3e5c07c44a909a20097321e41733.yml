@@ -1,0 +1,36 @@
+_id: req_102a3e5c07c44a909a20097321e41733
+type: Request
+parentId: fld_4e19442804064a9cb090f237d2ad29cf
+modified: 1645205545851
+created: 1645205151307
+url: "{{ _.api_base_url }}/users"
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "primoz@susa.cloud",
+    	"password": "susa",
+    	"full_name": "Primoz Susa",
+    	"picture": "",
+    	"civl": null,
+    	"bio": "",
+    	"countryIso": "SI",
+    	"website": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+authentication: {}
+metaSortKey: -1645205151307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
