@@ -1,0 +1,29 @@
+_id: req_b2d7e7f11fa74028b927506ef3a6bc92
+type: Request
+parentId: fld_fec844e088804e8f96b29a7f62508299
+modified: 1645293158589
+created: 1645292827156
+url: "{{ _.api_base_url }}/countries"
+name: lo, la to country
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"location": [7.5600, 45.5612]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+authentication: {}
+metaSortKey: -1645205088417.6406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
