@@ -1,0 +1,25 @@
+_id: req_3ed4c2e1ad994bb984a4727ea38bed9b
+type: Request
+parentId: fld_fb13f9acbeaa406e8b330b4481716c77
+modified: 1645298162263
+created: 1645298115569
+url: "{{ _.api_base_url }}/clubs/ckzu7rg6x0018erry1oa1c313"
+name: remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205131971.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_bfc73f79c9da4d839d0d744308a9f985
+type: Request
+parentId: fld_2422eff6738949a2b89d969e39608aa6
+modified: 1645299284161
+created: 1645299046873
+url: "{{ _.api_base_url }}/query-builder"
+name: with members and owners
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"$eager": {
+    		"members": ["id", "full_name"],
+    		"ownedBy": ["id", "full_name"]
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0e4dbca61494424b9b6188eea44a4d56
+authentication: {}
+metaSortKey: -1645228562326
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

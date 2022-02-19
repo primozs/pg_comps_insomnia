@@ -1,0 +1,25 @@
+_id: req_b61cdfdc169b4c12867b5dee2370e7ca
+type: Request
+parentId: fld_fb13f9acbeaa406e8b330b4481716c77
+modified: 1645297503812
+created: 1645297174549
+url: "{{ _.api_base_url }}/clubs"
+name: find
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+authentication: {}
+metaSortKey: -1645205151357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_8b6ff3eb05ff494ba37ca32cf7054a47
+type: Request
+parentId: fld_fb13f9acbeaa406e8b330b4481716c77
+modified: 1645306304649
+created: 1645306238244
+url: "{{ _.api_base_url }}/clubs/ckzu7rg6x0018erry1oa1c313"
+name: add self member
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {	
+    	"members": {
+    		"connect": {
+    			"id": "ckzsp0ma90000eiry0h98i354"
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_c979e59540f64e3aae6890daf9ca8e46
+authentication: {}
+metaSortKey: -1645205132777.4453
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

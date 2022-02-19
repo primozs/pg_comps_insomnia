@@ -1,0 +1,27 @@
+_id: req_fb79abc4bff54c29b519d6281714cacc
+type: Request
+parentId: fld_fb13f9acbeaa406e8b330b4481716c77
+modified: 1645304780004
+created: 1645299096984
+url: "{{ _.api_base_url
+  }}/clubs/ckzubqfei0003parygu8j7o52?$eager[members][0]=id&$eager[members][1]=f\
+  ull_name&$eager[ownedBy][0]=id&$eager[ownedBy][1]=full_name"
+name: get with members, owners
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+authentication: {}
+metaSortKey: -1645205151319.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

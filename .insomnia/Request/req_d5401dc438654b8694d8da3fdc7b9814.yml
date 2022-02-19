@@ -1,0 +1,33 @@
+_id: req_d5401dc438654b8694d8da3fdc7b9814
+type: Request
+parentId: fld_fb13f9acbeaa406e8b330b4481716c77
+modified: 1645297281594
+created: 1645297174546
+url: "{{ _.api_base_url }}/clubs"
+name: create minimum
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "KLV"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205151307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

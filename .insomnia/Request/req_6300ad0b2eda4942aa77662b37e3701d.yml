@@ -1,0 +1,37 @@
+_id: req_6300ad0b2eda4942aa77662b37e3701d
+type: Request
+parentId: fld_fb13f9acbeaa406e8b330b4481716c77
+modified: 1645298140788
+created: 1645297286250
+url: "{{ _.api_base_url }}/clubs"
+name: create full
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "KLV",
+    	"name_long": "Klub letalcev Vrhnika",
+    	"url": "klv.si",
+    	"description": "Long text description",
+    	"iso2": "IS"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205138416.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

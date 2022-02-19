@@ -1,0 +1,47 @@
+_id: req_8cd62e9914db43d6abaa0f242522b78e
+type: Request
+parentId: fld_2422eff6738949a2b89d969e39608aa6
+modified: 1645298823924
+created: 1645298795233
+url: "{{ _.api_base_url }}/query-builder"
+name: build 1
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"$include": {
+    		"model": {
+    			"select": {
+    				"name": true,
+    				"manufacturer": {
+    					"select": {
+    						"name": true
+    					}
+    				}
+    			}
+    		}
+    	},
+    	"model": {
+    		"name": {
+    			"$like": "jantar",
+    			"mode": "insensitive"
+    		}
+    	},
+    	"wing_span": 19
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0e4dbca61494424b9b6188eea44a4d56
+authentication: {}
+metaSortKey: -1645298795233
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

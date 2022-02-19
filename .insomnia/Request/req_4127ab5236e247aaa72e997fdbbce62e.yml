@@ -1,0 +1,29 @@
+_id: req_4127ab5236e247aaa72e997fdbbce62e
+type: Request
+parentId: fld_2422eff6738949a2b89d969e39608aa6
+modified: 1645299016996
+created: 1645298835652
+url: "{{ _.api_base_url }}/query-builder"
+name: build 2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"$eager": [["members", ["user"]], "attachments"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0e4dbca61494424b9b6188eea44a4d56
+authentication: {}
+metaSortKey: -1645251973295
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
