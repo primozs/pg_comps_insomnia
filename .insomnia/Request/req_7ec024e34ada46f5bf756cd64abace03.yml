@@ -1,0 +1,33 @@
+_id: req_7ec024e34ada46f5bf756cd64abace03
+type: Request
+parentId: fld_13ec233cf8e04678ac70237d4493f3e5
+modified: 1645377072087
+created: 1645376801981
+url: "{{ _.api_base_url }}/glider/manufacturers"
+name: create minimum
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Ozone"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205151307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

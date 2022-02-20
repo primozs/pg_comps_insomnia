@@ -1,0 +1,25 @@
+_id: req_8a95b54bfb5f41f1806a658c5982fca3
+type: Request
+parentId: fld_f2700bbd7df842a1ae41fec1280e0ca4
+modified: 1645315426549
+created: 1645311515100
+url: "{{ _.api_base_url }}/competitions/ckzui8av00021mcrysespkjg5"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+authentication: {}
+metaSortKey: -1645205151332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

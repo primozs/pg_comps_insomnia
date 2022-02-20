@@ -1,0 +1,35 @@
+_id: req_58d4cace2fcf4842a091d654935485fd
+type: Request
+parentId: fld_3b4fba746f8d487289318394a4df8fc9
+modified: 1645378010662
+created: 1645377908914
+url: "{{ _.api_base_url }}/gliders"
+name: create minimum
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"model_id": "ckzvjgr810087horyqnaecdvv",
+    	"size": "S",
+    	"certification": "CCC"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205151307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_ffc835dce0584789ac0e44ea4e727933
+type: Request
+parentId: fld_49f3f46742df4aec90f6c5a46c98ece2
+modified: 1645315855191
+created: 1645315361106
+url: "{{ _.api_base_url }}/editions/ckzuik2ns00250dryt3alzz0r"
+name: remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205131971.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

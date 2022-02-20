@@ -1,0 +1,25 @@
+_id: req_cee778a1abf94036a511d8a8d88e2ca3
+type: Request
+parentId: fld_3b4fba746f8d487289318394a4df8fc9
+modified: 1645378083726
+created: 1645377908924
+url: "{{ _.api_base_url }}/gliders/ckzvjl3m80139hory7yqs74v3"
+name: remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205131971.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

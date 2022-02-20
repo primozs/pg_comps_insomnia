@@ -1,0 +1,29 @@
+_id: req_df4676b9f1be43fca3f555b3a67288b9
+type: Request
+parentId: fld_13ec233cf8e04678ac70237d4493f3e5
+modified: 1645377314184
+created: 1645376801986
+url: "{{ _.api_base_url }}/glider/manufacturers/ckzvj4q9r00337zryv1yw05x5"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_4d5f0803753d4c8a86afc073775491d3
+authentication: {}
+metaSortKey: -1645205151332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

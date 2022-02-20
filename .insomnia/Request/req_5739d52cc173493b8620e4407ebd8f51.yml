@@ -1,0 +1,40 @@
+_id: req_5739d52cc173493b8620e4407ebd8f51
+type: Request
+parentId: fld_13ec233cf8e04678ac70237d4493f3e5
+modified: 1645377245226
+created: 1645376801985
+url: "{{ _.api_base_url }}/glider/manufacturers"
+name: create with model
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "KimFly",	
+    	"models": {
+    		"create": [
+    			{
+    				"name": "Delta4"
+    			}
+    		]
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205138416.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_b25be1439645468da037e1abc0351893
+type: Request
+parentId: fld_49f3f46742df4aec90f6c5a46c98ece2
+modified: 1645315733613
+created: 1645315361099
+url: "{{ _.api_base_url }}/editions"
+name: create minimum
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"competition_id": "ckzui8av00021mcrysespkjg5",
+    	"name": "HF2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205151307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

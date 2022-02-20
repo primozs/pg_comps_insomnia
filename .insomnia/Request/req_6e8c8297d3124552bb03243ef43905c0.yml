@@ -1,0 +1,25 @@
+_id: req_6e8c8297d3124552bb03243ef43905c0
+type: Request
+parentId: fld_49f3f46742df4aec90f6c5a46c98ece2
+modified: 1645315368453
+created: 1645315361101
+url: "{{ _.api_base_url }}/editions"
+name: find
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+authentication: {}
+metaSortKey: -1645205151357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

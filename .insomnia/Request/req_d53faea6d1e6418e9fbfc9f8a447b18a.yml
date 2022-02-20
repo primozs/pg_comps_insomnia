@@ -1,0 +1,29 @@
+_id: req_d53faea6d1e6418e9fbfc9f8a447b18a
+type: Request
+parentId: fld_13ec233cf8e04678ac70237d4493f3e5
+modified: 1645376976086
+created: 1645376801982
+url: "{{ _.api_base_url }}/glider/manufacturers"
+name: find
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d8a3bf4b57fc480d8c2c58326ab34d44
+authentication: {}
+metaSortKey: -1645205151357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

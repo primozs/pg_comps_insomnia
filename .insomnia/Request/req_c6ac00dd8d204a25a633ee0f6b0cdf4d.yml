@@ -1,0 +1,41 @@
+_id: req_c6ac00dd8d204a25a633ee0f6b0cdf4d
+type: Request
+parentId: fld_49f3f46742df4aec90f6c5a46c98ece2
+modified: 1645315814920
+created: 1645315361104
+url: "{{ _.api_base_url }}/editions"
+name: create full
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"competition_id": "ckzui8av00021mcrysespkjg5",
+    	"name": "HF3 3030",	
+    	"start_date": "2022-01-01T23:03:06.572Z",
+    	"end_date": "2022-12-01T23:03:06.572Z",
+    	"description": "Long text desc",
+    	"rules_description": "Long text rules desc",
+    	"settings": {},
+    	"registration_open": false,
+    	"registration_end": "2022-01-01T23:03:06.572Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205138416.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

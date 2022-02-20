@@ -1,0 +1,29 @@
+_id: req_7ea5e5c71969456484dcac16c372002c
+type: Request
+parentId: fld_3b4fba746f8d487289318394a4df8fc9
+modified: 1645377932271
+created: 1645377908922
+url: "{{ _.api_base_url }}/gliders/ckzvjgr810088horydufh9nt0"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_4d5f0803753d4c8a86afc073775491d3
+authentication: {}
+metaSortKey: -1645205151332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

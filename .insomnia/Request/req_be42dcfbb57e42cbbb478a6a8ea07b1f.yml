@@ -1,0 +1,29 @@
+_id: req_be42dcfbb57e42cbbb478a6a8ea07b1f
+type: Request
+parentId: fld_e6c44905972047249cc740e5a92d4759
+modified: 1645377517046
+created: 1645377509927
+url: "{{ _.api_base_url }}/glider/models"
+name: find
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d8a3bf4b57fc480d8c2c58326ab34d44
+authentication: {}
+metaSortKey: -1645205151357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

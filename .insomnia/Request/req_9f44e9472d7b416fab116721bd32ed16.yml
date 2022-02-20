@@ -1,0 +1,27 @@
+_id: req_9f44e9472d7b416fab116721bd32ed16
+type: Request
+parentId: fld_f2700bbd7df842a1ae41fec1280e0ca4
+modified: 1645315432472
+created: 1645311515102
+url: "{{ _.api_base_url
+  }}/competitions/ckzui8av00021mcrysespkjg5?$eager[editions][0]=id&$eager[editi\
+  ons][1]=name"
+name: get with editions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+authentication: {}
+metaSortKey: -1645205151319.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

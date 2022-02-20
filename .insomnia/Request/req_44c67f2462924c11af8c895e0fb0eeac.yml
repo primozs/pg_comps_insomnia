@@ -1,0 +1,25 @@
+_id: req_44c67f2462924c11af8c895e0fb0eeac
+type: Request
+parentId: fld_f2700bbd7df842a1ae41fec1280e0ca4
+modified: 1645311530298
+created: 1645311515096
+url: "{{ _.api_base_url }}/competitions"
+name: find
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+authentication: {}
+metaSortKey: -1645205151357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
