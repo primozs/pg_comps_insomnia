@@ -1,0 +1,25 @@
+_id: req_b76fe2cdb00f4b54a4838c0b9eece467
+type: Request
+parentId: fld_fd8e5851ee0a4dac906b3c6e7699cb90
+modified: 1645388460629
+created: 1645385522950
+url: "{{ _.api_base_url }}/competitors/ckzvpp2ev0038z8ryvwyuphzt"
+name: remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205131971.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

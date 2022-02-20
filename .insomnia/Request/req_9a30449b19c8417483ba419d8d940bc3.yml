@@ -1,0 +1,25 @@
+_id: req_9a30449b19c8417483ba419d8d940bc3
+type: Request
+parentId: fld_fd8e5851ee0a4dac906b3c6e7699cb90
+modified: 1645388999143
+created: 1645385522953
+url: "{{ _.api_base_url }}/competitors/ckzvptrl80109z8rykijw52c8?$eager[0]=edition"
+name: get with edition
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+authentication: {}
+metaSortKey: -1645205151319.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_c7826a2d68fa43609220ad470e431cbd
+type: Request
+parentId: fld_fd8e5851ee0a4dac906b3c6e7699cb90
+modified: 1645389126509
+created: 1645389025176
+url: "{{ _.api_base_url
+  }}/competitors/ckzvptrl80109z8rykijw52c8?$eager[0][0]=edition&$eager[0][1]=co\
+  mpetition&$eager[1]=user&$eager[2]=club&$eager[3]=glider"
+name: get with edition user comp
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+authentication: {}
+metaSortKey: -1645205151313.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

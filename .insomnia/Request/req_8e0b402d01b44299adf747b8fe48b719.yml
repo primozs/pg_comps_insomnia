@@ -1,0 +1,29 @@
+_id: req_8e0b402d01b44299adf747b8fe48b719
+type: Request
+parentId: fld_2422eff6738949a2b89d969e39608aa6
+modified: 1645389104535
+created: 1645388829336
+url: "{{ _.api_base_url }}/query-builder"
+name: with edition
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"$eager": [["edition", "competition"], "user", "club", "glider"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0e4dbca61494424b9b6188eea44a4d56
+authentication: {}
+metaSortKey: -1645216856841.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

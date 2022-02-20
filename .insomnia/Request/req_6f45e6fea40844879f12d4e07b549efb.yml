@@ -1,30 +1,30 @@
-_id: req_b25be1439645468da037e1abc0351893
+_id: req_6f45e6fea40844879f12d4e07b549efb
 type: Request
-parentId: fld_49f3f46742df4aec90f6c5a46c98ece2
-modified: 1645387898600
-created: 1645315361099
-url: "{{ _.api_base_url }}/editions"
-name: create minimum
+parentId: fld_fd8e5851ee0a4dac906b3c6e7699cb90
+modified: 1645388568314
+created: 1645385522947
+url: "{{ _.api_base_url }}/competitors/ckzvptrl80109z8rykijw52c8"
+name: update sponsor
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
-    {
-    	"competition_id": "ckzui8av00021mcrysespkjg5",
-    	"name": "HF2"
+    {	
+    	"sponsors": "Assist"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_06fea1ebe805428ab938ab398b5251d3
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
   - name: Authorization
     value: JWT {{ _.JwtToken }}
     description: ""
-    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+    id: pair_c979e59540f64e3aae6890daf9ca8e46
 authentication: {}
-metaSortKey: -1645205151307
+metaSortKey: -1645205135194.3438
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
