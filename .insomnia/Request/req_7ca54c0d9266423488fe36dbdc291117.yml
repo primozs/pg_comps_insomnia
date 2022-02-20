@@ -1,0 +1,40 @@
+_id: req_7ca54c0d9266423488fe36dbdc291117
+type: Request
+parentId: fld_be80f81c3bb245cab724b4b5b2d2408d
+modified: 1645395642175
+created: 1645395356419
+url: "{{ _.api_base_url }}/waypoints"
+name: create full
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"edition_id": "ckzui8av00022mcryhyux0e1k",
+    	"name": "Test",
+    	"lat": 46.32,
+    	"lon": 13.454,
+    	"ele": 1212,
+    	"code": "TST1",
+    	"country": "SI",
+    	"description": "Long text desc"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205138416.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

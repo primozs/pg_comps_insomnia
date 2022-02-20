@@ -1,0 +1,25 @@
+_id: req_02cdc683fda947cca756ed375a5cb411
+type: Request
+parentId: fld_be80f81c3bb245cab724b4b5b2d2408d
+modified: 1645396416005
+created: 1645395356422
+url: "{{ _.api_base_url }}/waypoints/ckzvu30hx0020p3ryvf537l6s"
+name: remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205131971.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

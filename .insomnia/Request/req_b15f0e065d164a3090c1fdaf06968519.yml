@@ -1,0 +1,25 @@
+_id: req_b15f0e065d164a3090c1fdaf06968519
+type: Request
+parentId: fld_95dac39eea6e431cbe2c6c380555d275
+modified: 1645397954005
+created: 1645396668721
+url: "{{ _.api_base_url }}/tasks/ckzvvfdni0066p3ryl302r3na"
+name: remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205131971.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

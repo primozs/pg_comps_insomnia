@@ -1,0 +1,34 @@
+_id: req_8156627ce8c546b5b067ffb383d3ec15
+type: Request
+parentId: fld_be80f81c3bb245cab724b4b5b2d2408d
+modified: 1645396122421
+created: 1645395356424
+url: "{{ _.api_base_url }}/waypoints/ckzvu30hx0020p3ryvf537l6s"
+name: update name
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {	
+    	"name": "Test 1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_c979e59540f64e3aae6890daf9ca8e46
+authentication: {}
+metaSortKey: -1645205134388.711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_4ff47ef94aec444f92364673de39fa7c
+type: Request
+parentId: fld_be80f81c3bb245cab724b4b5b2d2408d
+modified: 1645395582536
+created: 1645395356421
+url: "{{ _.api_base_url }}/waypoints/ckzvu1dno0003p3ry05ai00rt"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+authentication: {}
+metaSortKey: -1645205151332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

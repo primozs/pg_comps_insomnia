@@ -1,0 +1,75 @@
+_id: req_b7eae53edc9c4cfd9b208598ff1d49cb
+type: Request
+parentId: fld_95dac39eea6e431cbe2c6c380555d275
+modified: 1645397870217
+created: 1645396668714
+url: "{{ _.api_base_url }}/tasks"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"edition_id": "ckzui8av00022mcryhyux0e1k",
+    	"name": "Task 1",
+    	"distance": 12121,
+    	"start_dt": "2022-02-20T22:52:53.165Z",
+    	"utc": 1,
+    	"task_points": [
+    		{
+    			"lat": 46.32,
+    			"lon": 13.454,
+    			"rad": 400,
+    			"ele": 100,
+    			"type": "start",
+    			"name": "Ajdovscina",
+    			"desc": "Tp desc"
+    		},
+    		{
+    			"lat": 46.32,
+    			"lon": 13.454,
+    			"rad": 400,
+    			"ele": 2322,
+    			"type": "point",
+    			"name": "Krn",
+    			"desc": "Tp desc"
+    		},
+    		{
+    			"lat": 46.32,
+    			"lon": 13.454,
+    			"rad": 400,
+    			"ele": 2322,
+    			"type": "point",
+    			"name": "Triglav",
+    			"desc": "Tp desc"			
+    		},
+    		{
+    			"lat": 46.32,
+    			"lon": 13.454,
+    			"rad": 400,
+    			"ele": 1000,
+    			"type": "finish",
+    			"name": "Kranjska gora",
+    			"desc": "Tp desc"
+    		}
+    	]	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205151307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

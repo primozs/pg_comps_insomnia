@@ -1,0 +1,25 @@
+_id: req_5327a5266a8b40f78790e0dd34c2a4e8
+type: Request
+parentId: fld_be80f81c3bb245cab724b4b5b2d2408d
+modified: 1645395367403
+created: 1645395356416
+url: "{{ _.api_base_url }}/waypoints"
+name: find
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+authentication: {}
+metaSortKey: -1645205151357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
