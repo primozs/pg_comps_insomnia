@@ -1,0 +1,37 @@
+_id: req_68f0925ab16244eea7a2bc8b17c16e4a
+type: Request
+parentId: fld_89f2a7767e8b438ebf463e8c16596897
+modified: 1645707606017
+created: 1645707035925
+url: "{{ _.api_base_url }}/posts"
+name: create full
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"edition_id": "ckzui8av00022mcryhyux0e1k",
+    	"title": "Heroic coldrenes",
+    	"content": "Long text",
+    	"published": true,
+    	"author_id": "ckzsp0ma90000eiry0h98i354"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205138416.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

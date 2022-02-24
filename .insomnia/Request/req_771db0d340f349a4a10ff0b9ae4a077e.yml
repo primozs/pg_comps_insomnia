@@ -1,0 +1,25 @@
+_id: req_771db0d340f349a4a10ff0b9ae4a077e
+type: Request
+parentId: fld_89f2a7767e8b438ebf463e8c16596897
+modified: 1645707588470
+created: 1645707035928
+url: "{{ _.api_base_url }}/posts/cl00zozhx00170nryuezjel18"
+name: remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205131971.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
