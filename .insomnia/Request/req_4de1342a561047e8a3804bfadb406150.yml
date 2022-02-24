@@ -1,10 +1,12 @@
 _id: req_4de1342a561047e8a3804bfadb406150
 type: Request
 parentId: fld_89f2a7767e8b438ebf463e8c16596897
-modified: 1645707564091
+modified: 1645708520597
 created: 1645707035929
-url: "{{ _.api_base_url }}/posts/cl00zs3m100290nry5h139r7w?$eager[0]=edition"
-name: get with edition
+url: "{{ _.api_base_url
+  }}/posts/cl00zs3m100290nry5h139r7w?$eager[0]=edition&$eager[1]=author&$eager[\
+  2]=postAttachments&$eager[3]=postPhotos"
+name: get full
 description: ""
 method: GET
 body: {}

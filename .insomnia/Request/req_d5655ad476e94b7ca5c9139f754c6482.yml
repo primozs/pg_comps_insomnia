@@ -1,11 +1,11 @@
 _id: req_d5655ad476e94b7ca5c9139f754c6482
 type: Request
 parentId: fld_1aa232ab19ea4e9fab8910b6eda99c88
-modified: 1645696044505
+modified: 1645708732434
 created: 1645566904096
 url: "{{ _.api_base_url
   }}/filestore/flights--ddab9fd1766e70389105cfc56976c101159fee19e9f75d9dbcd7dfa\
-  b65feec0b.bin"
+  b65feec0b.igc"
 name: remove
 description: ""
 method: DELETE
