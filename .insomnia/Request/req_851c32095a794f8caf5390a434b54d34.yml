@@ -1,0 +1,31 @@
+_id: req_851c32095a794f8caf5390a434b54d34
+type: Request
+parentId: fld_1aa232ab19ea4e9fab8910b6eda99c88
+modified: 1645606189393
+created: 1645566904094
+url: "{{ _.api_base_url
+  }}/filestore/ddab9fd1766e70389105cfc56976c101159fee19e9f75d9dbcd7dfab65feec0b\
+  .bin"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_2f203d826d284a40b42db6f1b38bd336
+authentication: {}
+metaSortKey: -1645205151332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

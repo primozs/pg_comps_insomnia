@@ -1,0 +1,40 @@
+_id: req_ee188470799145d9b29a6aa921ad8b44
+type: Request
+parentId: fld_1aa232ab19ea4e9fab8910b6eda99c88
+modified: 1645696153571
+created: 1645566968947
+url: "{{ _.api_base_url }}/filestore"
+name: create multipart
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: folder
+      value: flights
+      id: pair_83382e9ef9d74e13a503b15df9f4301f
+      disabled: false
+    - name: uri
+      value: ""
+      description: ""
+      id: pair_f33e800f90334fdb952062240f8b99b1
+      type: file
+      fileName: /home/primozs/Desktop/best-tracks-2020/IGCS73Vpc.igc
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205144861.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

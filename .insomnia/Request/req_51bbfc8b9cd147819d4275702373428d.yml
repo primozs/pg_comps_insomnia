@@ -1,0 +1,31 @@
+_id: req_51bbfc8b9cd147819d4275702373428d
+type: Request
+parentId: fld_1aa232ab19ea4e9fab8910b6eda99c88
+modified: 1645695774628
+created: 1645692132154
+url: "{{ _.api_base_url
+  }}/filestore/flights--ddab9fd1766e70389105cfc56976c101159fee19e9f75d9dbcd7dfa\
+  b65feec0b.bin?returnUri=true"
+name: get uri
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_2f203d826d284a40b42db6f1b38bd336
+authentication: {}
+metaSortKey: -1645205151322.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
