@@ -1,30 +1,30 @@
-_id: req_52fff9efecc44cb8b84b743c7f0148f7
+_id: req_4f527f2993cb40fe86b47f327fdb954e
 type: Request
-parentId: fld_89f2a7767e8b438ebf463e8c16596897
-modified: 1645726311453
-created: 1645707035921
-url: "{{ _.api_base_url }}/posts"
-name: create minimum
+parentId: fld_eaecc1b2138f4605b66ff61e92913835
+modified: 1645823474757
+created: 1645823201198
+url: "{{ _.api_base_url }}/tracker-devices/cl02wrd4e0027d8ryk1hra4ff"
+name: update published
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
-    {
-    	"edition_id": "cl01ax4kw0036wfrynyi0lzyj",
-    	"title": "Heroic coldrenes"
+    {	
+    	"tracker_id": "FLYM12134"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_06fea1ebe805428ab938ab398b5251d3
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
   - name: Authorization
     value: JWT {{ _.JwtToken }}
     description: ""
-    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+    id: pair_c979e59540f64e3aae6890daf9ca8e46
 authentication: {}
-metaSortKey: -1645205151307
+metaSortKey: -1645205135194.3438
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

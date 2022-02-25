@@ -1,21 +1,19 @@
-_id: req_68f0925ab16244eea7a2bc8b17c16e4a
+_id: req_599e6249da2c45449303b4077a7a5d6f
 type: Request
-parentId: fld_89f2a7767e8b438ebf463e8c16596897
-modified: 1645726376443
-created: 1645707035925
-url: "{{ _.api_base_url }}/posts"
+parentId: fld_b1bb164cc23047a2a5a1a9bcd40e8715
+modified: 1645715621107
+created: 1645715259712
+url: "{{ _.api_base_url }}/flights"
 name: create full
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"edition_id": "cl01ax4kw0036wfrynyi0lzyj",
-    	"title": "Heroic coldrenes",
-    	"content": "Long text",
-    	"published": true,
-    	"author_id": "cl01a95dc0000wfrygkbg2mfs"
+    	"date": "2022-01-01T23:03:06.572Z",
+    	"file_id": "flights--ddab9fd1766e70389105cfc56976c101159fee19e9f75d9dbcd7dfab65feec0b.igc",
+    	"public": true
     }
 parameters: []
 headers:

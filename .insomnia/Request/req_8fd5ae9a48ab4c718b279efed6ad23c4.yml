@@ -1,0 +1,25 @@
+_id: req_8fd5ae9a48ab4c718b279efed6ad23c4
+type: Request
+parentId: fld_b1bb164cc23047a2a5a1a9bcd40e8715
+modified: 1645715668906
+created: 1645715259715
+url: "{{ _.api_base_url }}/flights/cl014l9rk001991rytjq83ioq"
+name: remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205131971.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

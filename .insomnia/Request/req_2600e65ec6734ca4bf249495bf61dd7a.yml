@@ -1,0 +1,29 @@
+_id: req_2600e65ec6734ca4bf249495bf61dd7a
+type: Request
+parentId: fld_eaecc1b2138f4605b66ff61e92913835
+modified: 1645823467214
+created: 1645823201200
+url: "{{ _.api_base_url }}/tracker-devices/cl02wrd4e0027d8ryk1hra4ff"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_fd9c3cd3a0e5490aacfc5db82bda7c95
+authentication: {}
+metaSortKey: -1645205151332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

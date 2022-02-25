@@ -1,21 +1,18 @@
-_id: req_68f0925ab16244eea7a2bc8b17c16e4a
+_id: req_17bf6c959fab488c98e78ce62d3c8003
 type: Request
-parentId: fld_89f2a7767e8b438ebf463e8c16596897
-modified: 1645726376443
-created: 1645707035925
-url: "{{ _.api_base_url }}/posts"
-name: create full
+parentId: fld_eaecc1b2138f4605b66ff61e92913835
+modified: 1645823436982
+created: 1645823201195
+url: "{{ _.api_base_url }}/tracker-devices"
+name: create
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"edition_id": "cl01ax4kw0036wfrynyi0lzyj",
-    	"title": "Heroic coldrenes",
-    	"content": "Long text",
-    	"published": true,
-    	"author_id": "cl01a95dc0000wfrygkbg2mfs"
+    	"tracker_id": "FLYM1213",
+    	"type": "FLYMASTER"
     }
 parameters: []
 headers:
@@ -27,7 +24,7 @@ headers:
     description: ""
     id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
 authentication: {}
-metaSortKey: -1645205138416.875
+metaSortKey: -1645205151307
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
