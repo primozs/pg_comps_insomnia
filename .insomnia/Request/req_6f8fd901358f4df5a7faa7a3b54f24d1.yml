@@ -1,0 +1,29 @@
+_id: req_6f8fd901358f4df5a7faa7a3b54f24d1
+type: Request
+parentId: fld_01141b30048f45cba8a9799f4092bc9b
+modified: 1645870758735
+created: 1645869929496
+url: "{{ _.api_base_url }}/tracker-positions?task_id=cl02xvyoc0082szryvvt6nk14"
+name: find by task
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d12b224ca5f64227858fe1268a9eb92e
+authentication: {}
+metaSortKey: -1645205151344.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

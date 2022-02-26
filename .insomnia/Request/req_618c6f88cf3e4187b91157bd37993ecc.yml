@@ -1,19 +1,23 @@
-_id: req_baf8f0f29b8f495e85880f01cac7321d
+_id: req_618c6f88cf3e4187b91157bd37993ecc
 type: Request
-parentId: fld_fd8e5851ee0a4dac906b3c6e7699cb90
-modified: 1645825104113
-created: 1645385522943
-url: "{{ _.api_base_url }}/competitors"
-name: create minimum
+parentId: fld_01141b30048f45cba8a9799f4092bc9b
+modified: 1645870859288
+created: 1645824941723
+url: "{{ _.api_base_url }}/tracker-positions"
+name: create
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"user_id": "cl01a95dc0000wfrygkbg2mfs",
-    	"edition_id": "cl01ax4kw0036wfrynyi0lzyj",
-    	"sponsors": "Naviter"
+    	"time": "2022-02-20T22:52:56.165Z",
+    	"device_id": "cl02xnapg0026szry3lkj529a",
+    	"task_id": "cl02xvyoc0082szryvvt6nk14",
+    	"competitor_id": "cl02xrvfm0059szryh4w4e3jl",
+    	"lat": 45.23,
+    	"lon": 14.34,
+    	"alt": 345
     }
 parameters: []
 headers:

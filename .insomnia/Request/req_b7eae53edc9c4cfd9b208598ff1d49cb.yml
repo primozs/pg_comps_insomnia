@@ -1,7 +1,7 @@
 _id: req_b7eae53edc9c4cfd9b208598ff1d49cb
 type: Request
 parentId: fld_95dac39eea6e431cbe2c6c380555d275
-modified: 1645397870217
+modified: 1645825287754
 created: 1645396668714
 url: "{{ _.api_base_url }}/tasks"
 name: create
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"edition_id": "ckzui8av00022mcryhyux0e1k",
+    	"edition_id": "cl01ax4kw0036wfrynyi0lzyj",
     	"name": "Task 1",
     	"distance": 12121,
     	"start_dt": "2022-02-20T22:52:53.165Z",
