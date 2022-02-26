@@ -1,0 +1,30 @@
+_id: req_d38d37ff7bbb485e85669286698a9f9a
+type: Request
+parentId: fld_d4492b6d44c74831acc9aeb4970a2077
+modified: 1645882865004
+created: 1645879193106
+url: "{{ _.api_base_url }}/timezone"
+name: find by lat lon
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"lat": 46.3029746,
+    	"lon": 14.4275489
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e5540404e7464525ad26eac65b1ced38
+authentication: {}
+metaSortKey: -1645879253388.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

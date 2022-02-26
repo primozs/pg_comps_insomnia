@@ -1,0 +1,29 @@
+_id: req_7baaf99e2472442f829a9d718091dd48
+type: Request
+parentId: fld_d4492b6d44c74831acc9aeb4970a2077
+modified: 1645882786931
+created: 1645879085751
+url: "{{ _.api_base_url }}/timezone"
+name: find by country_code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"country_code": "SI"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_99963425f0d446f39f5e2d7941244e7d
+authentication: {}
+metaSortKey: -1645879253426
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

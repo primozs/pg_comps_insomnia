@@ -1,0 +1,29 @@
+_id: req_3bb1f7f71c324875ab5522d5d38688b3
+type: Request
+parentId: fld_d4492b6d44c74831acc9aeb4970a2077
+modified: 1645882814032
+created: 1645879117915
+url: "{{ _.api_base_url }}/timezone"
+name: find by zone_name
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"zone_name": "Europe/Ljubljana"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4d4f8455de0b49db86bb9239e0998055
+authentication: {}
+metaSortKey: -1645879253401
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_25a74d9f5feb4c9e9adbf81d4077f8ca
+type: Request
+parentId: fld_d4492b6d44c74831acc9aeb4970a2077
+modified: 1645883451174
+created: 1645879253376
+url: "{{ _.api_base_url }}/timezone"
+name: find by country_code no ref_iso_date
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"country_code": "AE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6b16adaa3f4b43188c9f926043111da5
+authentication: {}
+metaSortKey: -1645879243338.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
