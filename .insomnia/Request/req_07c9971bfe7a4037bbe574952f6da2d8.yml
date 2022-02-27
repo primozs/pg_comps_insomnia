@@ -1,9 +1,9 @@
 _id: req_07c9971bfe7a4037bbe574952f6da2d8
 type: Request
 parentId: fld_b1bb164cc23047a2a5a1a9bcd40e8715
-modified: 1645720051820
+modified: 1645989365071
 created: 1645715259714
-url: "{{ _.api_base_url }}/flights/cl014nmi1006591ryq3lxenqy"
+url: "{{ _.api_base_url }}/flights/cl05nc9vp00059ory652c7i1v"
 name: get
 description: ""
 method: GET
