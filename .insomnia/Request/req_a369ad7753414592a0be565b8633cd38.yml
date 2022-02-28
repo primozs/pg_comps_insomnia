@@ -1,0 +1,36 @@
+_id: req_a369ad7753414592a0be565b8633cd38
+type: Request
+parentId: fld_407759880a83405886e98a47e0168c45
+modified: 1646068693826
+created: 1646064751743
+url: "{{ _.api_base_url }}/locations"
+name: find
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"position": [
+    		14.4275489, 46.3029746
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_eae4f79d20f84583b068a4056231ef3f
+authentication: {}
+metaSortKey: -1645205151357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
