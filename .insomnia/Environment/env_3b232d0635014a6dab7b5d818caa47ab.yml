@@ -1,7 +1,7 @@
 _id: env_3b232d0635014a6dab7b5d818caa47ab
 type: Environment
 parentId: env_2c4f7b782bf27f113fb9f06284786a0c5725ca77
-modified: 1646068083546
+modified: 1646160664968
 created: 1645204660992
 name: dev
 data:
@@ -9,7 +9,7 @@ data:
   port: "3030"
   host: "{{hostName}}:{{port}}"
   api_base_url: "{{host}}"
-  JwtToken: eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJpYXQiOjE2NDYwNjgwNjUsImV4cCI6MTY0NjE1NDQ2NSwiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiY2wwMWE5NWRjMDAwMHdmcnlna2JnMm1mcyIsImp0aSI6ImIyYzgyY2ZjLTQ4ZGQtNDQ1MC1iYWYzLWM4NzU3OTA1M2Y2YiJ9.m51Osiln-C8_i27y8W1440_NwdK5LF3PcASF9RTsQkE
+  JwtToken: eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJpYXQiOjE2NDYxNjA2NDcsImV4cCI6MTY0NjI0NzA0NywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiY2wwMWE5NWRjMDAwMHdmcnlna2JnMm1mcyIsImp0aSI6IjdjNjk3NmFjLWU1MjMtNDUzYS05NmQ1LTQ5Nzg0MDY0NWUyMCJ9.GqmQ73ef9DU2vebOYNEMqlOSyphGhsyt0gM9y_UNgcs
 dataPropertyOrder:
   "&":
     - hostName

@@ -1,17 +1,17 @@
-_id: req_ee188470799145d9b29a6aa921ad8b44
+_id: req_b8ee26cb49c8428eb02161bd5f033fd5
 type: Request
 parentId: fld_1aa232ab19ea4e9fab8910b6eda99c88
-modified: 1646160517419
-created: 1645566968947
+modified: 1646160597756
+created: 1646160539218
 url: "{{ _.api_base_url }}/filestore"
-name: upload flight
+name: upload image
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
     - name: folder
-      value: flights
+      value: photos
       id: pair_83382e9ef9d74e13a503b15df9f4301f
       disabled: false
     - name: uri
@@ -19,7 +19,7 @@ body:
       description: ""
       id: pair_f33e800f90334fdb952062240f8b99b1
       type: file
-      fileName: /home/primozs/Desktop/best-tracks-2020/IGCS73Vpc.igc
+      fileName: /home/primozs/Desktop/best-tracks-2020/62105114_2482937971724741_1466001685359886336_o.jpg
 parameters: []
 headers:
   - name: Content-Type
@@ -30,7 +30,7 @@ headers:
     description: ""
     id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
 authentication: {}
-metaSortKey: -1645205144861.9375
+metaSortKey: -1645205140028.1406
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

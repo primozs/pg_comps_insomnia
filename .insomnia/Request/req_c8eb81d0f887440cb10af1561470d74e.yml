@@ -1,11 +1,10 @@
-_id: req_17e49939868d47348b808f793b8d53ef
+_id: req_c8eb81d0f887440cb10af1561470d74e
 type: Request
 parentId: fld_b1bb164cc23047a2a5a1a9bcd40e8715
-modified: 1646167972011
-created: 1645715259716
-url: "{{ _.api_base_url
-  }}/flights/cl05nc9vp00059ory652c7i1v?$eager[0]=user&$eager[1]=file"
-name: get full
+modified: 1646169465876
+created: 1646167941537
+url: "{{ _.api_base_url }}/flights/cl05nc9vp00059ory652c7i1v?format=igc"
+name: get igc
 description: ""
 method: GET
 body: {}
@@ -16,7 +15,7 @@ headers:
     description: ""
     id: pair_b8b40da675b34ac29d6eaa8da7297308
 authentication: {}
-metaSortKey: -1645205151319.5
+metaSortKey: -1645205151330.4375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

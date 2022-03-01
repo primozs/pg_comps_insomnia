@@ -1,11 +1,10 @@
-_id: req_17e49939868d47348b808f793b8d53ef
+_id: req_503b8c2ec77148269f317bdb482a058c
 type: Request
 parentId: fld_b1bb164cc23047a2a5a1a9bcd40e8715
-modified: 1646167972011
-created: 1645715259716
-url: "{{ _.api_base_url
-  }}/flights/cl05nc9vp00059ory652c7i1v?$eager[0]=user&$eager[1]=file"
-name: get full
+modified: 1646171518266
+created: 1646167947444
+url: "{{ _.api_base_url }}/flights/cl05nc9vp00059ory652c7i1v?format=json"
+name: get json
 description: ""
 method: GET
 body: {}
@@ -16,7 +15,7 @@ headers:
     description: ""
     id: pair_b8b40da675b34ac29d6eaa8da7297308
 authentication: {}
-metaSortKey: -1645205151319.5
+metaSortKey: -1645205151329.6562
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
