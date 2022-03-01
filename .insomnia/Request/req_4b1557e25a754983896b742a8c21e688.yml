@@ -1,0 +1,33 @@
+_id: req_4b1557e25a754983896b742a8c21e688
+type: Request
+parentId: fld_95dac39eea6e431cbe2c6c380555d275
+modified: 1646117420118
+created: 1646117377072
+url: "{{ _.api_base_url }}/tasks/cl07rm1y50003jrrykf92af3o"
+name: update from cu
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"cu_task_url": "https://seeyou.cloud/xcplanner?ci=public-task&vn=taskpoints&vi=ckvt75j1b0000385wxe3tcvi2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205146473.2031
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_98c26a488da845468aba93d79266e196
+type: Request
+parentId: fld_95dac39eea6e431cbe2c6c380555d275
+modified: 1646115646693
+created: 1646071247132
+url: "{{ _.api_base_url }}/tasks"
+name: create from cu
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"edition_id": "cl01ax4kw0036wfrynyi0lzyj",
+    	"cu_task_url": "https://seeyou.cloud/xcplanner?ci=public-task&vn=taskpoints&vi=ckvt75j1b0000385wxe3tcvi2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205148084.4688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

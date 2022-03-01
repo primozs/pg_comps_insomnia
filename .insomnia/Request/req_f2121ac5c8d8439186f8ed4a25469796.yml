@@ -1,21 +1,26 @@
-_id: req_ec974be7bbcf476dacab9b9cd5404168
+_id: req_f2121ac5c8d8439186f8ed4a25469796
 type: Request
 parentId: fld_95dac39eea6e431cbe2c6c380555d275
-modified: 1646123430540
-created: 1645396668720
-url: "{{ _.api_base_url }}/tasks/cl07rm1y50003jrrykf92af3o"
-name: get
+modified: 1646125074764
+created: 1646124903305
+url: "{{ _.api_base_url }}/tasks/cl07rm1y50003jrrykf92af3o?format=xctsk"
+name: get xctsk
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - name: format
+    value: xctsk
+    description: ""
+    id: pair_f56046e4893547f387de9072335856d4
+    disabled: true
 headers:
   - name: Content-Type
     value: application/json
     description: ""
     id: pair_b8b40da675b34ac29d6eaa8da7297308
 authentication: {}
-metaSortKey: -1645205151332
+metaSortKey: -1645205151328.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
