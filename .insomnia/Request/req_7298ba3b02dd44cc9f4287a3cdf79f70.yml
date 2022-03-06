@@ -1,0 +1,38 @@
+_id: req_7298ba3b02dd44cc9f4287a3cdf79f70
+type: Request
+parentId: fld_438369df016b45debf4367d0924af8df
+modified: 1646570730064
+created: 1646570578609
+url: "{{ _.api_base_url }}/elevations"
+name: find
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    	[
+    		[10, 10],
+    		[20, 20],
+    		[-8.583933, 41.161758]
+    	]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_eae4f79d20f84583b068a4056231ef3f
+    disabled: false
+authentication: {}
+metaSortKey: -1646570563541
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,44 @@
+_id: req_fc72e186f9704ab8babc771bee3c5081
+type: Request
+parentId: fld_74a4d5995dac45679d2db81001df7c21
+modified: 1646570598748
+created: 1646560073116
+url: "{{ _.elevationHost }}/api/v1/lookup"
+name: find
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"locations":
+    	[
+    		{
+    			"latitude": 10,
+    			"longitude": 10
+    		},
+    		{
+    			"latitude":20,
+    			"longitude": 20
+    		},
+    		{
+    			"latitude":41.161758,
+    			"longitude":-8.583933
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+authentication: {}
+metaSortKey: -1645205151457
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
