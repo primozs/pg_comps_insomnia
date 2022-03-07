@@ -1,0 +1,27 @@
+_id: req_b066c2ddca4c430d960e35df8f95f038
+type: Request
+parentId: fld_d7c580d3bc294f9bbb2a353dd1f3ca8b
+modified: 1646691200280
+created: 1646689682216
+url: "{{ _.api_base_url
+  }}/liveot?type=configuration_link&task_id=cl07rm1y50003jrrykf92af3o"
+name: get conflink
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+    disabled: false
+authentication: {}
+metaSortKey: -1646574883114
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
