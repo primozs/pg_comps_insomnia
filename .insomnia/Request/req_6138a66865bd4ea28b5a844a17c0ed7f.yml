@@ -1,25 +1,37 @@
 _id: req_6138a66865bd4ea28b5a844a17c0ed7f
 type: Request
 parentId: fld_d7c580d3bc294f9bbb2a353dd1f3ca8b
-modified: 1646574937999
+modified: 1646684506037
 created: 1646574883089
-url: "{{ _.api_base_url }}/liveot"
+url: "{{ _.api_base_url }}/liveot?task_id=cl07rm1y50003jrrykf92af3o"
 name: pub
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
-    {
-    	"lat": 12,
-    	"_type": "krneki"
+    {	
+    	"_type": "location",
+    	"tst": 1646683085,
+    	"lat": 45.96091097,
+      "lon": 14.2912443,
+    	"alt": 342
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_26673a8f71bb4601a0dde037b724808a
-authentication: {}
+  - name: x-limit-d
+    value: cl02xnapg0026szry3lkj529a
+    description: ""
+    id: pair_33a404464db04cb189a0af203535235a
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: cl02xrvfm0059szryh4w4e3jl
+  password: kyOTQsImlhdCILCJhdWQiOiJzZWV5b3UuY2xv
 metaSortKey: -1646574883089
 isPrivate: false
 settingStoreCookies: true

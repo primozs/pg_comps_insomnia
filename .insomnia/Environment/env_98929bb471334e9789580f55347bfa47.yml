@@ -1,7 +1,7 @@
 _id: env_98929bb471334e9789580f55347bfa47
 type: Environment
 parentId: env_2c4f7b782bf27f113fb9f06284786a0c5725ca77
-modified: 1646507985126
+modified: 1646680846684
 created: 1646507922642
 name: prod
 data:
@@ -10,6 +10,7 @@ data:
   host: "{{hostName}}:{{port}}"
   api_base_url: "{{host}}"
   JwtToken: eyJhbGciOiJIUzI1NiIsInR5cCI6ImFjY2VzcyJ9.eyJpYXQiOjE2NDYxNjA2NDcsImV4cCI6MTY0NjI0NzA0NywiYXVkIjoiaHR0cHM6Ly95b3VyZG9tYWluLmNvbSIsImlzcyI6ImZlYXRoZXJzIiwic3ViIjoiY2wwMWE5NWRjMDAwMHdmcnlna2JnMm1mcyIsImp0aSI6IjdjNjk3NmFjLWU1MjMtNDUzYS05NmQ1LTQ5Nzg0MDY0NWUyMCJ9.GqmQ73ef9DU2vebOYNEMqlOSyphGhsyt0gM9y_UNgcs
+  apiKey: kyOTQsImlhdCILCJhdWQiOiJzZWV5b3UuY2xv
 dataPropertyOrder:
   "&":
     - hostName
@@ -17,6 +18,7 @@ dataPropertyOrder:
     - host
     - api_base_url
     - JwtToken
+    - apiKey
 color: "#cb6767"
 isPrivate: false
 metaSortKey: 1645204661042

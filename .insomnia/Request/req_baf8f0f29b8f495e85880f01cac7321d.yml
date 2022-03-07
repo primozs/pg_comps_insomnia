@@ -1,7 +1,7 @@
 _id: req_baf8f0f29b8f495e85880f01cac7321d
 type: Request
 parentId: fld_fd8e5851ee0a4dac906b3c6e7699cb90
-modified: 1645825104113
+modified: 1646683480504
 created: 1645385522943
 url: "{{ _.api_base_url }}/competitors"
 name: create minimum
