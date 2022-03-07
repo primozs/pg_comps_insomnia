@@ -1,0 +1,29 @@
+_id: req_ba8b5e080cfc4147bdf5a6b394285abb
+type: Request
+parentId: fld_2422eff6738949a2b89d969e39608aa6
+modified: 1646650467556
+created: 1646650457104
+url: "{{ _.api_base_url }}/query-builder"
+name: select
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"$select": ["user", "club", "glider"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0e4dbca61494424b9b6188eea44a4d56
+authentication: {}
+metaSortKey: -1645211004149.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

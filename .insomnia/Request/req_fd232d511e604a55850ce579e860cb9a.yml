@@ -1,0 +1,30 @@
+_id: req_fd232d511e604a55850ce579e860cb9a
+type: Request
+parentId: fld_d7c580d3bc294f9bbb2a353dd1f3ca8b
+modified: 1646578431189
+created: 1646575049983
+url: https://d055-185-159-157-11.ngrok.io/liveot?competitor_id=222&task_id=333&device_id=444
+name: pub-url
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"lat": 12,
+    	"_type": "krneki url"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_26673a8f71bb4601a0dde037b724808a
+authentication: {}
+metaSortKey: -1646572723315
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

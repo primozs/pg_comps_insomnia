@@ -1,10 +1,11 @@
-_id: req_8a95b54bfb5f41f1806a658c5982fca3
+_id: req_64de948078e34b2a8293dcc359bc10a1
 type: Request
-parentId: fld_f2700bbd7df842a1ae41fec1280e0ca4
-modified: 1646650546471
-created: 1645311515100
-url: "{{ _.api_base_url }}/competitions/cl01ax4kw0035wfryw6837i89"
-name: get
+parentId: fld_49f3f46742df4aec90f6c5a46c98ece2
+modified: 1646650669100
+created: 1646650560836
+url: "{{ _.api_base_url
+  }}/editions/cl01ax4kw0036wfrynyi0lzyj?$select[0]=name&$select[1]=start_date"
+name: get selected fields
 description: ""
 method: GET
 body: {}
@@ -15,7 +16,7 @@ headers:
     description: ""
     id: pair_b8b40da675b34ac29d6eaa8da7297308
 authentication: {}
-metaSortKey: -1645205151332
+metaSortKey: -1645205151331.2188
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
