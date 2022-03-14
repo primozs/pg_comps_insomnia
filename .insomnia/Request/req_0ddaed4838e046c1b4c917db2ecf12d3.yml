@@ -1,0 +1,47 @@
+_id: req_0ddaed4838e046c1b4c917db2ecf12d3
+type: Request
+parentId: fld_88c174ab50674eb5b13f600874aa1fe6
+modified: 1647208308498
+created: 1647208237646
+url: "{{ _.api_base_url }}/tst"
+name: test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"$include": {
+    		"model": {
+    			"select": {
+    				"name": true,
+    				"manufacturer": {
+    					"select": {
+    						"name": true
+    					}
+    				}
+    			}
+    		}
+    	},
+    	"model": {
+    		"name": {
+    			"$like": "jantar",
+    			"mode": "insensitive"
+    		}
+    	},
+    	"wing_span": 19
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0e4dbca61494424b9b6188eea44a4d56
+authentication: {}
+metaSortKey: -1645298795233
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

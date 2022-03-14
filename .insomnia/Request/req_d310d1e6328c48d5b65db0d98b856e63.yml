@@ -1,0 +1,38 @@
+_id: req_d310d1e6328c48d5b65db0d98b856e63
+type: Request
+parentId: fld_d7c580d3bc294f9bbb2a353dd1f3ca8b
+modified: 1646950269135
+created: 1646950080078
+url: "{{ _.api_base_url }}/liveot"
+name: send cmd
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "cmd",
+    	"task_id": "cl07rm1y50003jrrykf92af3o",
+    	"competitor_id": "cl02xrvfm0059szryh4w4e3jl",
+    	"device_id": "cl0hsi8nj0000hsry28i54hhd",
+    	"cmd": {"_type":"cmd","action":"reportLocation"}
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_87e19163f8384a19b70c458249dfa23c
+authentication: {}
+metaSortKey: -1646574883126.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
