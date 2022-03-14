@@ -1,10 +1,10 @@
 _id: req_d310d1e6328c48d5b65db0d98b856e63
 type: Request
 parentId: fld_d7c580d3bc294f9bbb2a353dd1f3ca8b
-modified: 1646950269135
+modified: 1647252484075
 created: 1646950080078
-url: "{{ _.api_base_url }}/liveot"
-name: send cmd
+url: "{{ _.api_base_url }}/mqtt"
+name: mqtt send cmd
 description: ""
 method: POST
 body:
@@ -28,7 +28,7 @@ headers:
     value: application/json
     id: pair_87e19163f8384a19b70c458249dfa23c
 authentication: {}
-metaSortKey: -1646574883126.5
+metaSortKey: -1646574883039
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
