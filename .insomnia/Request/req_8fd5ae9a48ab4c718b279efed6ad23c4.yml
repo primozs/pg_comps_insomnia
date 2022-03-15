@@ -1,9 +1,9 @@
 _id: req_8fd5ae9a48ab4c718b279efed6ad23c4
 type: Request
 parentId: fld_b1bb164cc23047a2a5a1a9bcd40e8715
-modified: 1645715668906
+modified: 1647258330491
 created: 1645715259715
-url: "{{ _.api_base_url }}/flights/cl014l9rk001991rytjq83ioq"
+url: "{{ _.api_base_url }}/flights/cl05nc9vp00059ory652c7i1v"
 name: remove
 description: ""
 method: DELETE

@@ -1,7 +1,7 @@
 _id: req_7298ba3b02dd44cc9f4287a3cdf79f70
 type: Request
 parentId: fld_438369df016b45debf4367d0924af8df
-modified: 1646570730064
+modified: 1647268080892
 created: 1646570578609
 url: "{{ _.api_base_url }}/elevations"
 name: find
@@ -12,9 +12,18 @@ body:
   text: |-
     
     	[
-    		[10, 10],
-    		[20, 20],
-    		[-8.583933, 41.161758]
+    		{
+    		"longitude": 10,
+    		"latitude": 10
+    	},
+    		{
+    		"longitude": 20,
+    		"latitude": 20
+    	},
+    		{
+    		"longitude": -8.583933,
+    		"latitude": 41.161758
+    	}
     	]
 parameters: []
 headers:
