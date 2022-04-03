@@ -1,0 +1,21 @@
+_id: req_c0710fd2d7d345b0bcc211eca4bc837a
+type: Request
+parentId: fld_2422eff6738949a2b89d969e39608aa6
+modified: 1649022462317
+created: 1649022447845
+url: "{{ _.api_base_url }}/query-builder"
+name: get cuid
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1645208077803.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

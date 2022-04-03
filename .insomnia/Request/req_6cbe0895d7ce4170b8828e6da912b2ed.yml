@@ -1,0 +1,31 @@
+_id: req_6cbe0895d7ce4170b8828e6da912b2ed
+type: Request
+parentId: fld_2422eff6738949a2b89d969e39608aa6
+modified: 1648493145916
+created: 1648493106318
+url: "{{ _.api_base_url }}/query-builder"
+name: build 3
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	   "name": {
+          "$search": "hello | hola"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0e4dbca61494424b9b6188eea44a4d56
+authentication: {}
+metaSortKey: -1645240267810.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

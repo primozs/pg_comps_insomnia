@@ -1,7 +1,7 @@
 _id: req_e74caeb06ed54686aa9e635a372a94b1
 type: Request
 parentId: fld_f2700bbd7df842a1ae41fec1280e0ca4
-modified: 1646724850521
+modified: 1649022898596
 created: 1645311515098
 url: "{{ _.api_base_url }}/competitions"
 name: create with edititon
@@ -11,17 +11,22 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "KLV",
+    	"id": "cl1jtj4g80000jary7w3xcoka",
+    	"name": "XSlovenia",	
     	"editions": {
     		"create": [{
-    			"name": "Open",
-    			"start_date": "2022-01-01T23:03:06.572Z",
-    			"end_date": "2080-12-01T23:03:06.572Z",
-    			"description": "KLV Klub Letalcev Vrhnikja",
-    			"rules_description": "No rules",
-    			"settings": {},
-    			"registration_open": true,
-    			"registration_end": "2080-01-01T23:03:06.572Z"
+    			"id": "cl1jtjnzk0001jaryen2w5xzf",
+    			"name": "2022",
+    			"location": "Slovenia",
+    			"country": "SI",
+    			"start_date": "2022-06-23T08:00:00.000Z",
+    			"end_date": "2022-06-25T15:00:00.000Z",
+    			"rules": "",
+    			"settings": {
+    				"liveFlymaster": false
+    			},
+    			"registration_open": false,
+    			"registration_end": "2022-05-31T00:00:00.000Z"
     		}]
     	} 
     }

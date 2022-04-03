@@ -1,0 +1,35 @@
+_id: req_bef59273e3d049909fbf0c3104896c6f
+type: Request
+parentId: fld_2422eff6738949a2b89d969e39608aa6
+modified: 1648495297401
+created: 1648494228882
+url: "{{ _.api_base_url }}/query-builder"
+name: build 4
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": {
+      "$rawWhere": {
+            
+              "contains": "search",
+              "mode": "insensitive"
+            
+          }}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0e4dbca61494424b9b6188eea44a4d56
+authentication: {}
+metaSortKey: -1645234415068.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
