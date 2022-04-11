@@ -1,7 +1,7 @@
 _id: req_5fd54136264f4c06870e26b315fe463e
 type: Request
 parentId: fld_fd8e5851ee0a4dac906b3c6e7699cb90
-modified: 1646683423726
+modified: 1649082717478
 created: 1645385522948
 url: "{{ _.api_base_url }}/competitors"
 name: create full
@@ -16,6 +16,7 @@ body:
     	"sponsors": "Naviter",
     	"club_id": "KLV",
     	"glider_id": "dfd",
+    	"sponsors": "",
     	"settings": {}
     }
 parameters: []

@@ -1,7 +1,7 @@
 _id: req_07c4f7bcc15e499b8016036abdc6d49a
 type: Request
 parentId: fld_7a5c2dc0b71843ddaba571e19a099623
-modified: 1647161029607
+modified: 1649355562733
 created: 1645205086196
 url: "{{ _.api_base_url }}/authentication"
 name: login local
@@ -12,7 +12,7 @@ body:
   text: |-
     {
       "strategy": "local",
-    	"email": "primoz@susa.cloud",
+    	"email": "primoz.susa@pm.me",
     	"password": "susa"
     }
 parameters: []

@@ -1,9 +1,9 @@
 _id: req_0683111e29f847f18facadbf67abfaeb
 type: Request
 parentId: fld_4e19442804064a9cb090f237d2ad29cf
-modified: 1645217548836
+modified: 1649344313636
 created: 1645217014598
-url: "{{ _.api_base_url }}/users/ckzsp0ma90000eiry0h98i354"
+url: "{{ _.api_base_url }}/users/cl01a95dc0000wfrygkbg2mfs"
 name: user patch
 description: ""
 method: PATCH
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {	
-    	"full_name": "Primož Suša"
+    	"full_name": "Primož Suša 222"
     }
 parameters: []
 headers:

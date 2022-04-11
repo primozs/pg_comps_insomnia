@@ -1,7 +1,7 @@
 _id: req_2d8bfa384067470d8b9b0f575660cb12
 type: Request
 parentId: fld_fd8e5851ee0a4dac906b3c6e7699cb90
-modified: 1645385531865
+modified: 1649356012426
 created: 1645385522946
 url: "{{ _.api_base_url }}/competitors"
 name: find

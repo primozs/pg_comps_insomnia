@@ -1,7 +1,7 @@
 _id: req_ba8b5e080cfc4147bdf5a6b394285abb
 type: Request
 parentId: fld_2422eff6738949a2b89d969e39608aa6
-modified: 1646650467556
+modified: 1649325168329
 created: 1646650457104
 url: "{{ _.api_base_url }}/query-builder"
 name: select
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"$select": ["user", "club", "glider"]
+    	"$select": ["iso2", "name", "emoji"]
     }
 parameters: []
 headers:
