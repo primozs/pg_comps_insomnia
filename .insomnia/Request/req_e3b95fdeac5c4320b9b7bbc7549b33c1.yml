@@ -1,11 +1,12 @@
-_id: req_0977d5aea0c34d34bd4dd97171e36b29
+_id: req_e3b95fdeac5c4320b9b7bbc7549b33c1
 type: Request
 parentId: fld_01141b30048f45cba8a9799f4092bc9b
-modified: 1651650303068
-created: 1645824941724
+modified: 1651652870875
+created: 1651652300373
 url: "{{ _.api_base_url
-  }}/tracker-positions?competitor_id=cl1ns7rld00453kryxna9gm6u&timeAgo=1hour"
-name: find by competitor
+  }}/tracker-positions?competitor_id=cl1ns7rld00453kryxna9gm6u&timeFrom=2022-05\
+  -04T08:27:39+00:00"
+name: find by competitor timeFrom
 description: ""
 method: GET
 body: {}
@@ -20,7 +21,7 @@ headers:
     description: ""
     id: pair_d12b224ca5f64227858fe1268a9eb92e
 authentication: {}
-metaSortKey: -1645205151357
+metaSortKey: -1645205151356.8047
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

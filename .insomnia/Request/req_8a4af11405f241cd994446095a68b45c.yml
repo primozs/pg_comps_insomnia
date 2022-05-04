@@ -1,11 +1,9 @@
 _id: req_8a4af11405f241cd994446095a68b45c
 type: Request
 parentId: fld_fd8e5851ee0a4dac906b3c6e7699cb90
-modified: 1649356100409
+modified: 1650481622009
 created: 1649356025269
-url: "{{ _.api_base_url
-  }}/competitors?edition_id=cl1jtjnzk0001jaryen2w5xzf&user_id=cl0e8drbj000001p6\
-  w1kjj67w"
+url: "{{ _.api_base_url }}/competitors?edition_id=cl1jtjnzk0001jaryen2w5xzf"
 name: find1
 description: ""
 method: GET

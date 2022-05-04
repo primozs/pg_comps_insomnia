@@ -1,10 +1,11 @@
-_id: req_2600e65ec6734ca4bf249495bf61dd7a
+_id: req_ef6f221262e2403e89b8dc5be5f39663
 type: Request
-parentId: fld_eaecc1b2138f4605b66ff61e92913835
-modified: 1646841181112
-created: 1645823201200
-url: "{{ _.api_base_url }}/tracker-devices/cl0hsi8nj0000hsry28i54hhd"
-name: get
+parentId: fld_01141b30048f45cba8a9799f4092bc9b
+modified: 1651648520945
+created: 1651648516484
+url: "{{ _.api_base_url
+  }}/tracker-positions?competitor_id=cl1ns7rld00453kryxna9gm6u&timeAgo=10hour"
+name: find by competitor timeAgo 10hour
 description: ""
 method: GET
 body: {}
@@ -17,9 +18,9 @@ headers:
   - name: Authorization
     value: JWT {{ _.JwtToken }}
     description: ""
-    id: pair_fd9c3cd3a0e5490aacfc5db82bda7c95
+    id: pair_d12b224ca5f64227858fe1268a9eb92e
 authentication: {}
-metaSortKey: -1645205151332
+metaSortKey: -1645205151355.8281
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

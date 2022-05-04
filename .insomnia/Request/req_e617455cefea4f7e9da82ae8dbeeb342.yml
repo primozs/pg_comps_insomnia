@@ -1,10 +1,11 @@
-_id: req_73742e5d5e524bc389ceccd5bdfc0a6b
+_id: req_e617455cefea4f7e9da82ae8dbeeb342
 type: Request
-parentId: fld_eaecc1b2138f4605b66ff61e92913835
-modified: 1645823271155
-created: 1645823201196
-url: "{{ _.api_base_url }}/tracker-devices"
-name: find
+parentId: fld_01141b30048f45cba8a9799f4092bc9b
+modified: 1651648582420
+created: 1651648575076
+url: "{{ _.api_base_url
+  }}/tracker-positions?competitor_id=cl1ns7rld00453kryxna9gm6u&timeAgo=3day"
+name: find by competitor timeAgo 3day
 description: ""
 method: GET
 body: {}
@@ -19,7 +20,7 @@ headers:
     description: ""
     id: pair_d12b224ca5f64227858fe1268a9eb92e
 authentication: {}
-metaSortKey: -1645205151357
+metaSortKey: -1645205151355.5352
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,9 +1,9 @@
 _id: req_3ecec914348e4529ad4efc5beefba5ba
 type: Request
 parentId: fld_89f2a7767e8b438ebf463e8c16596897
-modified: 1645707569588
+modified: 1651055470113
 created: 1645707035927
-url: "{{ _.api_base_url }}/posts/cl00zs3m100290nry5h139r7w"
+url: "{{ _.api_base_url }}/posts/cl2dr2hyx00105oryeuerfaq8"
 name: get
 description: ""
 method: GET

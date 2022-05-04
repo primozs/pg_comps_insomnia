@@ -1,9 +1,9 @@
 _id: req_4b1557e25a754983896b742a8c21e688
 type: Request
 parentId: fld_95dac39eea6e431cbe2c6c380555d275
-modified: 1646117420118
+modified: 1650723188743
 created: 1646117377072
-url: "{{ _.api_base_url }}/tasks/cl07rm1y50003jrrykf92af3o"
+url: "{{ _.api_base_url }}/tasks/cl28047l2001001l9lwyedqfk"
 name: update from cu
 description: ""
 method: PATCH
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"cu_task_url": "https://seeyou.cloud/xcplanner?ci=public-task&vn=taskpoints&vi=ckvt75j1b0000385wxe3tcvi2"
+    	"cu_task_url": "https://seeyou.cloud/xcplanner?ci=public-task&vn=taskpoints&vi=cl1qeykzy2e3a01mk6a290pku"
     }
 parameters: []
 headers:

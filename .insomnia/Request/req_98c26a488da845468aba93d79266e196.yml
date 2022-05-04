@@ -1,7 +1,7 @@
 _id: req_98c26a488da845468aba93d79266e196
 type: Request
 parentId: fld_95dac39eea6e431cbe2c6c380555d275
-modified: 1646115646693
+modified: 1650723451220
 created: 1646071247132
 url: "{{ _.api_base_url }}/tasks"
 name: create from cu
@@ -11,8 +11,9 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"edition_id": "cl01ax4kw0036wfrynyi0lzyj",
-    	"cu_task_url": "https://seeyou.cloud/xcplanner?ci=public-task&vn=taskpoints&vi=ckvt75j1b0000385wxe3tcvi2"
+    	"id": "cl28047l2001001l9lwyedqfk",
+    	"edition_id": "cl1jtjnzk0001jaryen2w5xzf",
+    	"cu_task_url": "https://seeyou.cloud/xcplanner?ci=public-task&vn=taskpoints&vi=cl1qeykzy2e3a01mk6a290pku"
     }
 parameters: []
 headers:
