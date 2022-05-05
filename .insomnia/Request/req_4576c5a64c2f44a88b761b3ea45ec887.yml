@@ -1,0 +1,30 @@
+_id: req_4576c5a64c2f44a88b761b3ea45ec887
+type: Request
+parentId: fld_9ccef02268bf43558f9d41cd5a28cab9
+modified: 1651745670419
+created: 1651745542876
+url: "{{ _.api_base_url
+  }}/live-last-positions?competitor_id=cl1ns7rld00453kryxna9gm6u"
+name: find by competitor
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d12b224ca5f64227858fe1268a9eb92e
+authentication: {}
+metaSortKey: -1645205151338.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
