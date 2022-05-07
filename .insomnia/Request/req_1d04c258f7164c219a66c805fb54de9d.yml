@@ -1,0 +1,38 @@
+_id: req_1d04c258f7164c219a66c805fb54de9d
+type: Request
+parentId: fld_15b86a8848b44da78d958f750e763aed
+modified: 1651868263808
+created: 1651868096294
+url: "{{ _.api_base_url }}/queue"
+name: queue send
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"send": {
+    		"name": "processLiveTaskScore",
+    		"data": {
+    			"taskId": "cl28047l2001001l9lwyedqfk"
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1651868029997
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

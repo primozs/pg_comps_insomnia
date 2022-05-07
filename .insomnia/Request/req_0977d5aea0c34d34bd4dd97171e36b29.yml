@@ -1,10 +1,10 @@
 _id: req_0977d5aea0c34d34bd4dd97171e36b29
 type: Request
 parentId: fld_01141b30048f45cba8a9799f4092bc9b
-modified: 1651650303068
+modified: 1651782452421
 created: 1645824941724
 url: "{{ _.api_base_url
-  }}/tracker-positions?competitor_id=cl1ns7rld00453kryxna9gm6u&timeAgo=1hour"
+  }}/tracker-positions?competitor_id=cl1ns7rld00453kryxna9gm6u&timeAgo=10hour"
 name: find by competitor
 description: ""
 method: GET

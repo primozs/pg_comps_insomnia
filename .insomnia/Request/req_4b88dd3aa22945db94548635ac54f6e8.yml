@@ -1,0 +1,39 @@
+_id: req_4b88dd3aa22945db94548635ac54f6e8
+type: Request
+parentId: fld_15b86a8848b44da78d958f750e763aed
+modified: 1651871639363
+created: 1651871632536
+url: "{{ _.api_base_url }}/queue"
+name: queue schedule every 2minute
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"schedule": {
+    		"name": "processLiveTaskScore",
+    		"cron": "*/2 * * * *",
+    		"data": {
+    			"taskId": "cl28047l2001001l9lwyedqfk"
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1647898169853.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

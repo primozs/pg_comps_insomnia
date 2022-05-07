@@ -1,0 +1,35 @@
+_id: req_2def43ba02fe49539c1c5d3ba545b49a
+type: Request
+parentId: fld_15b86a8848b44da78d958f750e763aed
+modified: 1651872905608
+created: 1651872280633
+url: "{{ _.api_base_url }}/queue"
+name: queue unschedule
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"unschedule": {
+    		"name": "processLiveTaskScore"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1648559813210.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

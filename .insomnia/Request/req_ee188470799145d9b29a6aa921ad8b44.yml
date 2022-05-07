@@ -1,7 +1,7 @@
 _id: req_ee188470799145d9b29a6aa921ad8b44
 type: Request
 parentId: fld_1aa232ab19ea4e9fab8910b6eda99c88
-modified: 1646160517419
+modified: 1651844526784
 created: 1645566968947
 url: "{{ _.api_base_url }}/filestore"
 name: upload flight
@@ -19,7 +19,7 @@ body:
       description: ""
       id: pair_f33e800f90334fdb952062240f8b99b1
       type: file
-      fileName: /home/primozs/Desktop/best-tracks-2020/IGCS73Vpc.igc
+      fileName: /home/primozs/Desktop/best-tracks-2020/2020-08-06-XCT-DOC-01.igc
 parameters: []
 headers:
   - name: Content-Type
