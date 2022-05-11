@@ -1,23 +1,23 @@
-_id: req_618c6f88cf3e4187b91157bd37993ecc
+_id: req_0d54a6d2fc3a4da684141adbb3cbb30d
 type: Request
-parentId: fld_01141b30048f45cba8a9799f4092bc9b
-modified: 1652304069908
-created: 1645824941723
-url: "{{ _.api_base_url }}/live-positions"
-name: create
+parentId: fld_15b86a8848b44da78d958f750e763aed
+modified: 1651915041231
+created: 1651914652829
+url: "{{ _.api_base_url }}/queue"
+name: queue send after iso
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"time": "2022-02-20T22:52:56.165Z",
-    	"device_id": "cl02xnapg0026szry3lkj529a",
-    	"task_id": "cl02xvyoc0082szryvvt6nk14",
-    	"competitor_id": "cl02xrvfm0059szryh4w4e3jl",
-    	"lat": 45.23,
-    	"lon": 14.34,
-    	"alt": 345
+    	"sendAfter": {
+    		"name": "processLiveTaskScore",
+    		"data": {
+    			"taskId": "cl28047l2001001l9lwyedqfk"
+    		},
+    		"time": "2022-05-07T09:16:47.859Z"
+    	}
     }
 parameters: []
 headers:
@@ -29,7 +29,7 @@ headers:
     description: ""
     id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
 authentication: {}
-metaSortKey: -1645205151307
+metaSortKey: -1650544743282.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

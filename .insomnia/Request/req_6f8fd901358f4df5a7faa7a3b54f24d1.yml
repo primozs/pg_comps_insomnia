@@ -1,10 +1,10 @@
 _id: req_6f8fd901358f4df5a7faa7a3b54f24d1
 type: Request
 parentId: fld_01141b30048f45cba8a9799f4092bc9b
-modified: 1651651415736
+modified: 1652304048881
 created: 1645869929496
 url: "{{ _.api_base_url
-  }}/tracker-positions?task_id=cl28047l2001001l9lwyedqfk&timeAgo=1day"
+  }}/live-positions?task_id=cl28047l2001001l9lwyedqfk&timeAgo=1day"
 name: find by task
 description: ""
 method: GET
