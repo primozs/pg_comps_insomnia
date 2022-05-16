@@ -1,11 +1,12 @@
-_id: req_0977d5aea0c34d34bd4dd97171e36b29
+_id: req_5468df06988a4f838c7829e1d71a2477
 type: Request
 parentId: fld_01141b30048f45cba8a9799f4092bc9b
-modified: 1652649307853
-created: 1645824941724
+modified: 1652700307424
+created: 1652647054980
 url: "{{ _.api_base_url
-  }}/live-positions?competitor_id=cl1p48kmy197201o7ae9tsmez&timeAgo=3day"
-name: find by competitor
+  }}/live-positions?competitor_id=cl1p48kmy197201o7ae9tsmez&timeFrom=2022-05-15\
+  T06:27:39+00:00&timeTo=2022-05-15T14:27:39+00:00&format=igc"
+name: find by competitor timeFrom1
 description: ""
 method: GET
 body: {}
@@ -20,7 +21,7 @@ headers:
     description: ""
     id: pair_d12b224ca5f64227858fe1268a9eb92e
 authentication: {}
-metaSortKey: -1645205151357
+metaSortKey: -1645205151356.7559
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

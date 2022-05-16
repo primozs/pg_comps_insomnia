@@ -1,11 +1,11 @@
 _id: req_e3b95fdeac5c4320b9b7bbc7549b33c1
 type: Request
 parentId: fld_01141b30048f45cba8a9799f4092bc9b
-modified: 1652303994471
+modified: 1652649358092
 created: 1651652300373
 url: "{{ _.api_base_url
-  }}/live-positions?competitor_id=cl1ns7rld00453kryxna9gm6u&timeFrom=2022-05-04\
-  T08:27:39+00:00"
+  }}/live-positions?competitor_id=cl1p48kmy197201o7ae9tsmez&timeFrom=2022-05-03\
+  T08:27:39+00:00&selectc=pos&format=geojson"
 name: find by competitor timeFrom
 description: ""
 method: GET

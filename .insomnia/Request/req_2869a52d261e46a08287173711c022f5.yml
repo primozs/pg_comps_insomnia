@@ -1,0 +1,37 @@
+_id: req_2869a52d261e46a08287173711c022f5
+type: Request
+parentId: fld_0641dba7591542f6bb0095d2a01d12b3
+modified: 1652542367566
+created: 1652541785810
+url: "{{ _.api_base_url }}/jobs"
+name: job send recalculate, task pilot
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "processLiveTrackScore",
+    	"payload": {
+    			"taskId": "cl28047l2001001l9lwyedqfk",
+    			"competitorId": "cl1ns7rld00453kryxna9gm6u"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06fea1ebe805428ab938ab398b5251d3
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645204934555.9395
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
