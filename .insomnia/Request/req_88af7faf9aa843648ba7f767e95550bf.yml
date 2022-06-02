@@ -1,10 +1,10 @@
 _id: req_88af7faf9aa843648ba7f767e95550bf
 type: Request
 parentId: fld_d7c580d3bc294f9bbb2a353dd1f3ca8b
-modified: 1649848107988
+modified: 1653989769888
 created: 1646685133288
 url: "{{ _.api_base_url
-  }}/liveot?type=configuration&task_id=cl07rm1y50003jrrykf92af3o"
+  }}/liveot?type=configuration&task_id=cl28047l2001001l9lwyedqfk"
 name: get conf
 description: ""
 method: GET
