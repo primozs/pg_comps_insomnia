@@ -1,0 +1,25 @@
+_id: req_74e5fa2b6b23410d85d07069811d0a13
+type: Request
+parentId: fld_54ffabcc4196462aba6e7f847ab6f2a5
+modified: 1657047599624
+created: 1657047549463
+url: "{{ _.api_base_url }}/personal-status/cl58idqj90022ihryzpkoauz1"
+name: remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_d9bb3bae11d94b2f8c10d83f6efc6c56
+authentication: {}
+metaSortKey: -1645205151231.6094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

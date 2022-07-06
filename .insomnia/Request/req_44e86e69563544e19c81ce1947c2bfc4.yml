@@ -1,9 +1,9 @@
-_id: req_6f1dd4b1e0994931bd22df275b1831df
+_id: req_44e86e69563544e19c81ce1947c2bfc4
 type: Request
-parentId: fld_49f3f46742df4aec90f6c5a46c98ece2
-modified: 1656441909912
-created: 1645315361105
-url: "{{ _.api_base_url }}/editions/cl1jtjnzk0001jaryen2w5xzf"
+parentId: fld_54ffabcc4196462aba6e7f847ab6f2a5
+modified: 1657045970798
+created: 1657045688326
+url: "{{ _.api_base_url }}/personal-status/cl58idqj90022ihryzpkoauz1"
 name: get
 description: ""
 method: GET
@@ -14,8 +14,12 @@ headers:
     value: application/json
     description: ""
     id: pair_b8b40da675b34ac29d6eaa8da7297308
+  - name: Authorization
+    value: JWT {{ _.JwtToken }}
+    description: ""
+    id: pair_dd460d9635f84de9b8cb39a978d4e05b
 authentication: {}
-metaSortKey: -1645205151332
+metaSortKey: -1645205151331.6094
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
